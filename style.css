@@ -10,6 +10,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -87,6 +89,7 @@ body .card .card__profile {
 }
 
 body .card .card__profile img {
+  border: 4px solid #ffffff;
   border-radius: 50%;
   width: 100%;
   height: 100%;

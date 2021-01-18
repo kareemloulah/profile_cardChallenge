@@ -13,6 +13,7 @@ $Dark_grayish_blue: hsl(227, 10%, 46%);
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Kumbh Sans", sans-serif;
 }
 body {
@@ -74,6 +75,7 @@ body {
             left: 50%;
             transform: translate(-50%);
             img {
+                border:4px solid #ffffff;
                 border-radius: 50%;
                 width: 100%;
                 height: 100%;
@@ -116,7 +118,7 @@ body {
                 align-items: center;
                 text-align: center;
                 .stat__num {
-                    font-size: 18px;s
+                    font-size: 18px;
                     color: $Very_dark_desaturated_blue;
                     font-weight: 700;
                     margin-bottom: 5px;
