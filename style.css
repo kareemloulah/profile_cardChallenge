@@ -72,7 +72,7 @@ body .card .card__top {
   height: 135px;
   position: relative;
   background-image: url(images/bg-pattern-card.svg);
-  background-size: contain;
+  background-size: cover;
   border-radius: 12px 12px 0 0;
 }
 
