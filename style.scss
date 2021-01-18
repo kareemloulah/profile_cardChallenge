@@ -45,6 +45,8 @@ body {
         }
     }
 
+
+
     .card {
         width: clamp(320px, calc(50vh - 100px), 400px);
         position: absolute;
@@ -95,21 +97,26 @@ body {
                 text-align: center;
                 font-size: 14px;
                 color: $Dark_grayish_blue;
+                margin-bottom: 15px; 
             }
         }
+
+
         
         .card__stats {
-            margin-top: 15px;
+            margin:auto 0;
             padding: 20px 0;
             border-top: 1px solid $Dark_grayish_blue;
             display: flex;
+             
             .stat {
                 width: 100%;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
                 .stat__num {
-                    font-size: 18px;
+                    font-size: 18px;s
                     color: $Very_dark_desaturated_blue;
                     font-weight: 700;
                     margin-bottom: 5px;

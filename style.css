@@ -115,10 +115,11 @@ body .card .card__info .card__city {
   text-align: center;
   font-size: 14px;
   color: #6a6f81;
+  margin-bottom: 15px;
 }
 
 body .card .card__stats {
-  margin-top: 15px;
+  margin: auto 0;
   padding: 20px 0;
   border-top: 1px solid #6a6f81;
   display: -webkit-box;
@@ -138,6 +139,7 @@ body .card .card__stats .stat {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 body .card .card__stats .stat .stat__num {
